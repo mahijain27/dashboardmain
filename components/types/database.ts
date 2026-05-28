@@ -13,8 +13,11 @@ export interface Database {
         Row: Course;
         Insert: Omit<Course, "id" | "created_at">;
         Update: Partial<Omit<Course, "id" | "created_at">>;
+        Relationships: [];
       };
     };
+    Views: {};
+    Functions: {};
   };
 }
 

@@ -2,6 +2,7 @@
 
 import { createClient } from "@/lib/supabase/server";
 import { revalidatePath } from "next/cache";
+import type { Database } from "@/components/types/database";
 
 export async function addCourseAction(formData: {
   title: string;
@@ -10,15 +11,15 @@ export async function addCourseAction(formData: {
 }) {
   try {
     const supabase = createClient();
+    const newCourse: Database["public"]["Tables"]["courses"]["Insert"] = {
+      title: formData.title,
+      progress: formData.progress,
+      icon_name: formData.iconName,
+    };
+
     const { error } = await supabase
       .from("courses")
-      .insert([
-        {
-          title: formData.title,
-          progress: formData.progress,
-          icon_name: formData.iconName,
-        },
-      ]);
+      .insert([newCourse] as any);
 
     if (error) {
       console.error("Supabase insert error:", error);
