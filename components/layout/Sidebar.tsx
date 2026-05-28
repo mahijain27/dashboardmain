@@ -16,10 +16,8 @@ import {
   Zap,
   GraduationCap,
 } from "lucide-react";
-import { cn } from "@/components/utils/
-cn";
-import { sidebarItemVariants } from "@/components/utils/
-animations";
+import { cn } from"@/components/utils/cn";
+import { sidebarItemVariants } from"@/components/utils/animations";
 import { StaggerContainer } from "@/components/animations/MotionWrapper";
 
 const navItems = [
