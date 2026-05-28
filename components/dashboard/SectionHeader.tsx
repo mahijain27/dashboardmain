@@ -17,7 +17,7 @@ import {
   Loader2,
 } from "lucide-react";
 import { addCourseAction } from "@/lib/actions";
-import { cn } from "@/utils/cn";
+import { cn } from "@/components/utils/cn";
 
 const availableIcons = [
   { name: "BookOpen", icon: BookOpen, label: "Education" },

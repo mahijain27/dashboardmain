@@ -2,8 +2,8 @@
 
 import { motion } from "framer-motion";
 import { Zap, Flame, Target, TrendingUp } from "lucide-react";
-import { cn } from "@/utils/cn";
-import { fadeUpVariants } from "@/utils/animations";
+import { cn } from "@/components/utils/cn";
+import { fadeUpVariants } from "@/components/utils/animations";;
 
 interface HeroTileProps {
   name?: string;

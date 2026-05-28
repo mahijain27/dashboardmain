@@ -2,11 +2,11 @@
 
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
-import { cn } from "@/utils/cn";
-import type { Course } from "@/types/database";
+import { cn } from "@/components/utils/cn";
+import type { Course } from "@/components/types/database";
 import { ProgressBar } from "@/components/ui/ProgressBar";
 import { DynamicIcon } from "@/components/ui/DynamicIcon";
-import { fadeUpVariants } from "@/utils/animations";
+import { fadeUpVariants } from "@/components/utils/animations";
 
 const COURSE_STYLES = [
   {

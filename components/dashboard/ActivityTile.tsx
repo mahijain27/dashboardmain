@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Activity } from "lucide-react";
 import { cn } from "@/components/utils/cn";
 
-import type { ActivityDay } from "@/types/database";
+import type { ActivityDay } from "@/components/types/database";
 import { fadeUpVariants } from "@/components/utils/animations";
 import { useMemo } from "react";
 import { generateActivityData, getActivityColor } from "@/components/utils/activity";

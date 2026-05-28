@@ -4,8 +4,8 @@
 
 import { motion } from "framer-motion";
 import { BookMarked, Clock, Award, Brain } from "lucide-react";
-import { cn } from "@/utils/cn";
-import { fadeUpVariants } from "@/utils/animations";
+import { cn } from "@/components/utils/cn";
+import { fadeUpVariants } from "@/components/utils/animations";
 
 const stats = [
   { label: "Completed", value: "7", unit: "courses", icon: BookMarked, color: "text-accent-violet", glow: "shadow-[0_0_12px_rgba(124,109,240,0.3)]" },
