@@ -2,12 +2,12 @@
 
 import { motion } from "framer-motion";
 import { Activity } from "lucide-react";
-import { cn } from "@/utils/cn";
-import { generateActivityData, getActivityColor } from "@/utils/activity";
-import type { ActivityDay } from "@/types/database";
-import { fadeUpVariants } from "@/utils/animations";
-import { useMemo } from "react";
+import { cn } from "@/components/utils/cn";
 
+import type { ActivityDay } from "@/types/database";
+import { fadeUpVariants } from "@/components/utils/animations";
+import { useMemo } from "react";
+import { generateActivityData, getActivityColor } from "@/components/utils/activity";
 const WEEKS = 20;
 const DAYS_OF_WEEK = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 

@@ -2,7 +2,7 @@
 
 import { motion, type Variants } from "framer-motion";
 import type { ReactNode } from "react";
-import { fadeUpVariants } from "@/utils/animations";
+import { fadeUpVariants } from "@/components/utils/animations";
 
 interface MotionWrapperProps {
   children: ReactNode;
