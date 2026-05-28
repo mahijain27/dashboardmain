@@ -2,7 +2,7 @@
 
 import { Bell, Search, Zap } from "lucide-react";
 import { motion } from "framer-motion";
-import { cn } from "@/utils/cn";
+import { cn } from "@/components/utils/cn";
 
 export function TopBar() {
   return (
