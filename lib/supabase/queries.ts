@@ -1,5 +1,5 @@
 import { createClient } from "./server";
-import type { Course } from "@/types/database";
+import type { Course } from "@/components/types/database";
 
 export async function getCourses(): Promise<Course[]> {
   try {

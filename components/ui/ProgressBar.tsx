@@ -2,7 +2,7 @@
 
 import { motion, useMotionValue, useTransform, animate } from "framer-motion";
 import { useEffect } from "react";
-import { cn } from "@/utils/cn";
+import { cn } from "@/components/utils/cn";
 
 interface ProgressBarProps {
   value: number;

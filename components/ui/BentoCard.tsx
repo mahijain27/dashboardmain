@@ -1,9 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { cn } from "@/utils/cn";
+import { cn } from "@/components/utils/cn";
 import type { ReactNode } from "react";
-import { fadeUpVariants } from "@/utils/animations";
+import { fadeUpVariants } from "@/components/utils/animations";
 
 interface BentoCardProps {
   children: ReactNode;

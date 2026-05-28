@@ -1,4 +1,5 @@
-import { cn } from "@/utils/cn";
+import { cn } from "@/components/utils/
+cn";
 
 interface SkeletonProps {
   className?: string;

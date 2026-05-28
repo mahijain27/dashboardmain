@@ -1,4 +1,5 @@
-import type { ActivityDay } from "@/types/database";
+import type { ActivityDay } from "
+@/components/types/database";
 
 function seededRandom(seed: number): number {
   const x = Math.sin(seed) * 10000;
